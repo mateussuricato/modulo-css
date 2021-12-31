@@ -16,3 +16,11 @@ h1 {
 .teste {
     color: red;
 }
+
+#teste {
+    color: green;
+}
+
+.paragrafo {
+    font-size: 30px;
+}
