@@ -1,0 +1,66 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+header {
+    background-color: cyan;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.w50 {
+    width: 50%;
+    padding: 0 10px;
+}
+
+nav {
+    text-align: right;
+}
+
+.banner {
+    width: 100%;
+    min-height: 500px;
+    background-color: darkblue;
+    text-align: center;
+    padding: 90px 0;
+    color: white;
+}
+
+.diferenciais {
+    flex-wrap: wrap;
+    display: flex;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.w33 {
+    width: 33.3%;
+    padding: 0 10px
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    background-color: darkorchid;
+    text-align: center;
+    width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+    header {
+        text-align: center;
+    }
+    nav{
+        text-align: center;
+    }
+    .w33, .w50 {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
